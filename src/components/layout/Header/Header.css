@@ -1,0 +1,27 @@
+.header {
+  width: 700px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-group a {
+  color: white;
+}
+
+.header-group button {
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
