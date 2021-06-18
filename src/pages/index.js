@@ -9,7 +9,7 @@ const IndexPage = () => (
     <h1>Welcome to Designing in React</h1>
     <p>
       Here we will learn react in gatsby and Design a beautiful, awesome,
-      astonished website.😘
+      astonished website. <span role="img">😘</span>
     </p>
 
     <p>
