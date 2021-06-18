@@ -7,8 +7,8 @@ import Header from "./Header/Header"
 const Layout = () => {
   return (
     <>
+      <Header />
       <div className="Hero">
-        <Header />
         <div className="HeroGroup">
           <h1>Learning to Design and Code in React</h1>
           <p>
