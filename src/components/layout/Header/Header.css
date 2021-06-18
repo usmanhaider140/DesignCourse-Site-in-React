@@ -1,27 +1,46 @@
 .header {
-  width: 700px;
-  margin: auto;
-  padding-top: 20px;
+  width: 100%;
+  position: fixed;
+  padding: 50px 0;
+  z-index: 100;
 }
 
 .header-group {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  max-width: 800px;
+  margin: 0 auto;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
 }
 
 .header-group a {
   color: white;
+  font-weight: 700;
 }
 
 .header-group button {
-  background-color: aqua;
+  background-color: #56ccf2;
   border: none;
   color: white;
-  padding: 9px 20px;
+  padding: 8px 20px;
   border-radius: 20px;
   font-weight: 600;
+  font-size: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 15px 0;
+  }
+  .header-group {
+    grid-template-columns: repeat(4, auto);
+  }
+  .header a:nth-child(4) {
+    display: none;
+  }
 }
